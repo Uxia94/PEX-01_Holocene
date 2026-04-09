@@ -4,6 +4,7 @@ Version archived for publication in Paleoceanography and Paleoclimatology. Inclu
 ## Scripts and Files
 - **XRF_analysis_Peixao.R**: processes XRF elemental data (clr transformation), performs PCA, broken stick analysis and ANOSIM, and generates PC1 and Kclr time-series plots with 200-year smoothing. 
 - **XRF_Peixao_clean.xlsx**: input file for `XRF_analysis_Peixao.R`
+- **Plots_figure_5.R**: 
 
 ## Output Files
 
