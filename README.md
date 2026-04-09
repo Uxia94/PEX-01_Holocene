@@ -13,11 +13,18 @@ Version archived for publication in Paleoceanography and Paleoclimatology. Inclu
 
 ## Usage
 
-## Notes
+### General Setup:
+- Ensure R and packages are installed.
+- Place input files in yout working directory or update paths in scripts.
+- Run scripts via `source("script_name.R")` in R.
 
-- `d2H_precipitation_simulations.csv`: to export the clr-transformed dataset, add the following line to the script: "write.csv(xrf_clr, "XRF_clr.csv", row.names = FALSE)
+### Run `XRF_analysis_Peixao.R`: 
+- To export the clr-transformed dataset, add the following line to the script: `write.csv(xrf_clr, "XRF_clr.csv`, row.names = FALSE)
+
+## Notes
+- **Input Data**: Contact the corresponding author (m.eugenia.fernandezp@udc.es) for supporting information or full datasets.
 
 
 ## Contact
-
+For questions, contact U. Fernández-Pérez (m.eugenia.fernandezp@udc.es).
 
