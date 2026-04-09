@@ -8,9 +8,8 @@ Version archived for publication in Paleoceanography and Paleoclimatology. Inclu
 ## Output Files
 
 ### From `XRF_analysis_Peixao.R`:
-- `d2H_precipitation_simulations.csv`: XRF_clr.csv (clr-transformed dataset containing elemental compositions used for PCA AND SUBSEQUENT ANALYSES); biplot of PC1 vs PC2 including loadings and confidence ellipses; broken-stick scree plot; ANOSIM output (plot and R statistic and significance values); time-series plot of PC1 vs age (raw and smoothed); and time-series plot of clr-transformed K vs age (smoothed).
+- `d2H_precipitation_simulations.csv`: XRF_clr.csv (clr-transformed dataset containing elemental compositions used for PCA and subsequent analyses); biplot of PC1 vs PC2 including loadings and confidence ellipses; broken-stick scree plot; ANOSIM output (plot and R statistic and significance values); time-series plot of PC1 vs age (raw and smoothed); and time-series plot of clr-transformed K vs age (smoothed).
 
-## Output Files
 
 ## Usage
 
