@@ -14,7 +14,7 @@ if ~isfile(filename)
 end
 
 Pei = table2array(filename); 
-
+rng(1)
 %% =========================
 % 2. Normalize data
 Pei_norm = Pei ./ sum(Pei, 2);
