@@ -9,9 +9,9 @@ Version archived for publication in Paleoceanography and Paleoclimatology. Inclu
 - **Statistical_assessment_deuterio_carbon_covariation.R**: this script evaluates the covariation between δ2Hterr (dD) and δ13Cterr time series using multiple statistical approaches: (1) Pearson correlation, (2) linear detrending and correlattion of residuals, and (3) first-differencing to assss high-frequency variability.
 - **NMF_Peixao_2ka.m**: performs non-negative matrix factorization (NMF) on n-alkane distribuions. The script requires an external NMF function (see below).
 - **Peixao_2000_alkanes.xlsx**: input file for `NMF_Peixao_2ka.m`, contining n-alkane concentration (ng/g).
-- **NMF_Peixao_11ka.m**: this script performs Non-negative Matrix Factorization (NMF) on n-alkane distributions from the Peixao sedimentary record and integrates multiple downstream analyses, including PCA comparison, isotope modeling, and relationships with modern vegetation datasets.
-- **Peixao_11ka_alkanes.xlsx**: input file for `NMF_Peixao_11ka.m`, contining n-alkane concentration (ng/g).
-- 
+- **NMF_Peixao_11ka.m**: this script performs Non-negative Matrix Factorization (NMF) on n-alkane distributions from the Peixao sedimentary record and integrates complementary analyses to reconstruct paleoclimate signals and interpret organic matter sources. 
+- **Peixao_11ka_alkanes.xlsx**: input file for `NMF_Peixao_11ka.m`. This file contains all datasets required to reproduce the NMF-based analyses of n-alkane distributions and associated isotope and proxy data form the Peixao sedimentary record (~11 ka). The excel file is organized into multiple sheets: (1) n-alkane distributions, (2) age, (3) n-alkane indices, (4) n-alkane hydrogen isotopes, (5) n-alkane carbon isotopes, and (6) distributions of the modern vegetation.
+
 ## Output Files
 
 ### From `XRF_analysis_Peixao.R`:
