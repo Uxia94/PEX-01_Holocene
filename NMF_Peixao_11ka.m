@@ -5,15 +5,15 @@ clc
 close all
 
 %% =========================
-% 1. Load and preprocess n-alkane data
+% 1. Load and preprocess n-alkane data. This script requires the file: 'Peixao_11ka_alkanes.xlsx'
 
-P = 'data/Peixao_11ka_alkanes.xlsx';
+filename = fullfile(pwd, 'data', 'Peixao_11ka_alkanes.xlsx')
 
-if ~isfile(P)
+if ~isfile(filename)
     error('Input file not found. Make sure it is in the /data folder.')
 end
 
-Pei = table2array(P); 
+Pei = table2array(filename); 
 
 %% =========================
 % 2. Normalize data
