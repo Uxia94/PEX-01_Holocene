@@ -35,7 +35,7 @@ Pei_norm_2000 = Pei_2000 ./ sum(Pei_2000, 2);
 % Check normalization
 sum_Pei_norm_2000_filas = sum(Pei_norm_2000,2); 
 Matriz_Pei_2000 = Pei_norm_2000';
-
+rng(1)
 %% =========================
 % 3. Run NMF models
 
