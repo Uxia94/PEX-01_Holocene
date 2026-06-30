@@ -2,7 +2,7 @@
 Version archived for publication in Paleoceanography and Paleoclimatology. Includes data processing scripts, figure generation code, and analysis workflows associated with the manuscript.
 
 ## Scripts and Files
--**Plots_alkanes.R**:generates three figures from n-alkanes and NMF-derived isotope data: (1) modern plant n-alkane distributions by vegetation endmember, (2) reconstructed percipitation δD (δD_prc) from terrestrial endmembers (EM1+EM2), and (3) NMF-derived terrestrial isotope curves (δ²Hterr and δ13Cterr).
+- **Plots_alkanes.R**:generates three figures from n-alkanes and NMF-derived isotope data: (1) modern plant n-alkane distributions by vegetation endmember, (2) reconstructed percipitation δD (δD_prc) from terrestrial endmembers (EM1+EM2), and (3) NMF-derived terrestrial isotope curves (δ²Hterr and δ13Cterr).
 - **XRF_analysis_Peixao.R**: processes XRF elemental data (clr transformation), performs PCA, broken stick analysis and ANOSIM, and generates PC1 and Kclr time-series plots with 200-year smoothing. 
 - **XRF_Peixao_clean.xlsx**: input file for `XRF_analysis_Peixao.R`, containing selected elemental data (cps) used in the study. 
 - **Plots_figure_5.R**: processes paleoclimate data. The script computes z-score normalization for δ²Hterr (dD) data and visualizes temporal variability using conditional areas fills (positive vs negative anomalies). Additionally, it bins NAO-like index data into 500-year intervals, calculates median values, and displays them as bar plots to emphasize centennial-scale variability. 
