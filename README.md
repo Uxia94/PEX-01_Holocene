@@ -2,6 +2,7 @@
 Version archived for publication in Paleoceanography and Paleoclimatology. Includes data processing scripts, figure generation code, and analysis workflows associated with the manuscript.
 
 ## Scripts and Files
+-**Plots_alkanes.R**:generates three figures from n-alkanes and NMF-derived isotope data: (1) modern plant n-alkane distributions by vegetation endmember, (2) reconstructed percipitation δD (δD_prc) from terrestrial endmembers (EM1+EM2), and (3) NMF-derived terrestrial isotope curves (δ²Hterr and δ13Cterr).
 - **XRF_analysis_Peixao.R**: processes XRF elemental data (clr transformation), performs PCA, broken stick analysis and ANOSIM, and generates PC1 and Kclr time-series plots with 200-year smoothing. 
 - **XRF_Peixao_clean.xlsx**: input file for `XRF_analysis_Peixao.R`, containing selected elemental data (cps) used in the study. 
 - **Plots_figure_5.R**: processes paleoclimate data. The script computes z-score normalization for δ²Hterr (dD) data and visualizes temporal variability using conditional areas fills (positive vs negative anomalies). Additionally, it bins NAO-like index data into 500-year intervals, calculates median values, and displays them as bar plots to emphasize centennial-scale variability. 
@@ -14,6 +15,9 @@ Version archived for publication in Paleoceanography and Paleoclimatology. Inclu
 
 ## Output Files
 
+### From `Plots_alkanes.R`:
+- Generates three ggplot2 figures: bar plot of modern n-alkane distributions by endmember group, time-series plot of reconstructed precipitation δ²H with uncertainty band, and two independent time-series plots of terrestrial δ²H and δ13C.
+  
 ### From `XRF_analysis_Peixao.R`:
 - `XRF_clr.csv` (clr-transformed dataset containing elemental compositions used for PCA and subsequent analyses); biplot of PC1 vs PC2 including loadings and confidence ellipses; broken-stick scree plot; ANOSIM output (plot and R statistic and significance values); time-series plot of PC1 vs age (raw and smoothed); and time-series plot of clr-transformed K vs age (smoothed).
 
@@ -69,6 +73,10 @@ Version archived for publication in Paleoceanography and Paleoclimatology. Inclu
 ### Run `NMF_Peixao_11ka.m`: 
 - Requires the input file `Peixao_11ka_alkanes.xlsx`.
 - Requires the external function `NMF.m` from Polissar et al. (2025), cited above. 
+
+### Run `Plots_alkanes.m`: 
+- Uses three independent input files (set paths in the USER INPUT section).
+- Data associated with figures are linked to a manuscript currently under review and will be accessible in the PANGAEA repository upon publication. 
 
 ## Notes
 - **Input Data**: Contact the corresponding author (m.eugenia.fernandezp@udc.es) for supporting information or full datasets.
